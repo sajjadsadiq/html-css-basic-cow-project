@@ -56,3 +56,40 @@ h1 {
   color: azure;
   line-height: 26px;
 }
+
+/* Type Of Cow */
+.typeCow {
+  width: 90%;
+  margin: 40px auto;
+  margin-top: 40px;
+}
+
+.cowImgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.cowImgContainer img {
+  width: 200px;
+  border: 4px solid #689db9;
+  border-radius: 5px;
+}
+
+.cowTitle {
+  display: flex;
+  justify-content: center;
+  color: #984921;
+}
+
+.cowTitle h2 {
+  font-size: 40px;
+  font-weight: 700;
+  display: inline;
+  text-transform: uppercase;
+  border-bottom: 2px solid #689db9;
+  padding-bottom: 10px;
+}
