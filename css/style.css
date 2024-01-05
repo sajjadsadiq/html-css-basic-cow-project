@@ -1,0 +1,58 @@
+/* Google Fonts Import - Roboto Mono */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("../img/cow.jpg");
+  height: 100vh;
+  background-position: bottom center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 73%, 49% 100%, 51% 100%, 0 76%);
+}
+h1 {
+  color: azure;
+  text-align: center;
+  font-size: 120px;
+  word-spacing: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+/* About Cow */
+.aboutCow {
+  width: 90%;
+  margin: 40px auto;
+}
+.cowContainer {
+  background: linear-gradient(
+    65deg,
+    rgba(87, 132, 163, 1) 0%,
+    rgba(65, 65, 170, 1) 0%,
+    rgba(158, 80, 44, 1) 100%
+  );
+  padding: 20px 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+.cowContainer h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  display: inline;
+  text-transform: uppercase;
+  border-bottom: 2px solid #689db9;
+  padding-bottom: 10px;
+}
+.cowContainer p {
+  margin-top: 30px;
+  text-align: justify;
+  color: azure;
+  line-height: 26px;
+}
